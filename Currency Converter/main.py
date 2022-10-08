@@ -1,3 +1,4 @@
+#Importing the necessary packages
 from tkinter import *
 from tkinter import ttk, messagebox
 import requests
@@ -106,4 +107,4 @@ class Web_Scraping:
             return data #Returning the value       
 
 if __name__ == "__main__":
-  Currency_Converter().mainloop()
+  Currency_Converter().mainloop() # Running the window
